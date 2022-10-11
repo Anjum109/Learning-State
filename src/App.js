@@ -24,7 +24,8 @@ function App() {
         {
           path: '/quiz/:quizId',
           loader: async ({ params }) => {
-            return fetch(`https://openapi.programming-hero.com/api/quiz/$%7Bid%7D/${params.quizId}`)
+            console.log(params.quizId)
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`)
           },
           element: <Quiz></Quiz>
         }
@@ -38,6 +39,10 @@ function App() {
           element: <Blog></Blog>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <div>This route not found</div>
     }
   ])
   return (

@@ -1,7 +1,6 @@
 .topic-list {
     border: 1px solid rgba(229, 210, 210, 0.466);
 
-
 }
 
 .logo-image img {
@@ -16,10 +15,12 @@
 .practice-btn {
     width: 100%;
     background-color: rgba(229, 210, 210, 0.466);
-    border: 1px solid rgba(229, 210, 210, 0.466);
-    border-radius: 20%;
+    border: none;
+
     padding: 15px;
     font-weight: 700;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 .practice-btn a {
