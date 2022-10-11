@@ -1,7 +1,8 @@
 import React from 'react';
+import { ToastContainer } from 'react-toastify';
 import './Option.css'
 
-const Option = ({ option, handleClick }) => {
+const Option = ({ option, handleClick, id }) => {
     console.log(option)
     // const { id } = option;
 
@@ -10,7 +11,9 @@ const Option = ({ option, handleClick }) => {
     return (
         <div className='option-box'>
             <div className='options'>
-                <input onClick={() => handleClick(option)} type="radio" value="id" name="option" />{option}
+                <label>
+                    <input onClick={() => handleClick(option)} type="radio" value="id" name={id} />{option}<ToastContainer position='top-center' />
+                </label>
             </div>
         </div>
     );

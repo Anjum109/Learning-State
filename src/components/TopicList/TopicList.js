@@ -13,8 +13,10 @@ const TopicList = ({ topicList }) => {
 
             <h4 className='topic-name'>{name}</h4>
             <p>Total Question: {total}</p>
-            <button className='practice-btn'><Link to={`/quiz/${id}`}>Start Practice</Link></button>
+            <div className='btn-btn'>
+                <button className='practice-btn'><Link to={`/quiz/${id}`}>Start Practice</Link></button>
 
+            </div>
         </div>
     );
 };

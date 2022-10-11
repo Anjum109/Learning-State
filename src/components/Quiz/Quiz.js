@@ -22,6 +22,7 @@ const Quiz = () => {
                         <QuizPage
                             key={query.id}
                             query={query}
+
                         ></QuizPage>
                     )
                 }
