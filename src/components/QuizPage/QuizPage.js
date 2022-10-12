@@ -33,10 +33,11 @@ const QuizPage = ({ query }) => {
                 </FontAwesomeIcon></div>
             </div>
             <div className="option">
-                {query.options.map((option, idx) =>
+                {query.options.map((option, idx, id) =>
                     <Option
                         key={idx}
                         option={option}
+                        id={id}
                         handleClick={handleClick}
                     ></Option>
                 )}
