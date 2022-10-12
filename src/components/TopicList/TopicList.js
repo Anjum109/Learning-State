@@ -12,7 +12,7 @@ const TopicList = ({ topicList }) => {
             </div>
 
             <h4 className='topic-name'>{name}</h4>
-            <p>Total Question: {total}</p>
+            <p className='topic-name'>Total Question: {total}</p>
             <div className='btn-btn'>
                 <button className='practice-btn'><Link to={`/quiz/${id}`}>Start Practice</Link></button>
 

@@ -16,7 +16,7 @@ const AnimatedHeader = () => {
                 whileHover={{ scale: 1.2 }}
             >
                 <span className='headline'>
-                    Increase your <span style={{ color: 'maroon' }}>Learning</span> path from <span style={{ color: 'maroon' }}>Learning</span> state
+                    Increase Your <span style={{ color: 'maroon' }}>Learning</span> Path
                 </span>
             </motion.h1>
         </div>
