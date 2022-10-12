@@ -1,0 +1,21 @@
+.headline {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgb(206, 138, 138);
+    background-color: rgb(206, 138, 138);
+    padding: 1% 2%;
+    border-radius: 10px;
+
+}
+
+@media only screen and (min-width:500px) {
+    .headline {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:800px) {
+    .headline {
+        font-size: 25px;
+    }
+}

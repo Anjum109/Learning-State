@@ -15,15 +15,3 @@
     display: flex;
     align-items: center;
 }
-
-@media (min-width: 700px) and (max-width : 2000px) {
-    .questions {
-        margin: 2% 30%;
-    }
-
-    .option {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-}

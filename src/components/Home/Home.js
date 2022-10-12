@@ -12,9 +12,9 @@ const Home = () => {
     return (
 
         <div>
-            <div>
-                <AnimatedHeader></AnimatedHeader>
-            </div>
+
+            <AnimatedHeader></AnimatedHeader>
+
             <div className='header-item-container'>
 
                 <img src={img} alt="" />

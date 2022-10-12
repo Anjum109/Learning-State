@@ -22,14 +22,14 @@ const QuizPage = ({ query }) => {
     }
 
     const handleEye = () => {
-        toast(correctAnswer)
+        toast(correctAnswer);
     }
 
     return (
         <div className='questions'>
             <div className='question-container'>
-                <h3>Quiz:{question}</h3>
-                <div className='fontSet'><FontAwesomeIcon onClick={handleEye} icon={faEye}><ToastContainer />
+                <h3>Quiz:{question.slice(3, -4)}</h3>
+                <div className='fontSet'><FontAwesomeIcon onClick={handleEye} icon={faEye}><ToastContainer width='500px' />
                 </FontAwesomeIcon></div>
             </div>
             <div className="option">

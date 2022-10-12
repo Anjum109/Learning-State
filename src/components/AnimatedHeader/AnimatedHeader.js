@@ -1,9 +1,10 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import './AnimatedHeader.css'
 
 const AnimatedHeader = () => {
     return (
-        <div className="App">
+        <div>
             <motion.h1
                 animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
                 transition={{
@@ -14,7 +15,9 @@ const AnimatedHeader = () => {
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileHover={{ scale: 1.2 }}
             >
-                Increase your <span style={{ color: 'maroon' }}>Learning</span> path from <span style={{ color: 'maroon' }}>Learning</span> state
+                <span className='headline'>
+                    Increase your <span style={{ color: 'maroon' }}>Learning</span> path from <span style={{ color: 'maroon' }}>Learning</span> state
+                </span>
             </motion.h1>
         </div>
     );

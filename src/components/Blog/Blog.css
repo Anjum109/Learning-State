@@ -8,3 +8,18 @@
     padding: 5% 10%;
     margin-bottom: 5%;
 }
+
+.title {
+    border: none;
+    margin: 2% 30% 2% 30%;
+    padding: 1%;
+    font-size: 25px;
+    background-color: rgb(198, 116, 116);
+    border-radius: 20px;
+}
+
+.title:hover {
+    background-color: rgb(46, 38, 38);
+    color: #fff;
+
+}
