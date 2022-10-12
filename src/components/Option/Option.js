@@ -12,7 +12,7 @@ const Option = ({ option, handleClick, id }) => {
         <div className='option-box'>
             <div className='options'>
                 <label>
-                    <input onClick={() => handleClick(option)} type="radio" value="id" name={id} />{option}<ToastContainer position='top-center' />
+                    <input onClick={() => handleClick(option)} type="radio" value="" name="Male" />{option}<ToastContainer position='top-center' />
                 </label>
             </div>
         </div>

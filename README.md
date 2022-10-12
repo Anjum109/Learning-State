@@ -1,6 +1,21 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live website link:
+Github Link: 
+
+The work I have done with this project is listed below sequentially: 
+
+* First, I install React Router on the terminal. 
+* then i create some route, so that we can go
+* then i Create components to added what we will show once we go to route.  
+* fetched data from GitHub by using loader 
+* Add route so that react router know that component it needs to display while we are visiting to that road. 
+* i use tostify for showing the correct or wrong answer.
+* last but not the list i create a component and declare it in the path for showing Error404.
+
+
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -67,4 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

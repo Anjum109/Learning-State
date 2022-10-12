@@ -12,6 +12,7 @@
     font-size: 15px;
     background-color: rgb(198, 116, 116);
     border-radius: 20px;
+    text-align: center;
 }
 
 .quizzes-headline:hover {

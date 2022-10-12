@@ -6,7 +6,7 @@ const AnimatedHeader = () => {
     return (
         <div>
             <motion.h1
-                animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+                animate={{ x: [50, 150, 25], opacity: 1, scale: 1 }}
                 transition={{
                     duration: 5,
                     delay: 0.3,

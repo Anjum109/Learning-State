@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizPage from '../QuizPage/QuizPage';
+import './Quiz.css'
 
 
 
@@ -13,7 +14,7 @@ const Quiz = () => {
     const Questions = quizQuestion.data.questions;
     return (
         <div>
-            <h3>Quiz of {name}</h3>
+            <h3 className='quiz-style'>Quiz of {name}</h3>
 
             <div className="quiz-question">
                 {
