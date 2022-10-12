@@ -1,0 +1,10 @@
+.Questions {
+    margin: 5% 20%;
+}
+
+.question {
+    border: 1px solid rgba(229, 210, 210, 0.466);
+    background-color: rgba(229, 210, 210, 0.466);
+    padding: 5% 10%;
+    margin-bottom: 5%;
+}

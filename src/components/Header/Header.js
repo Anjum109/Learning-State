@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
+import image from './online-learning.png'
 
 const Header = () => {
     return (
@@ -14,7 +15,7 @@ const Header = () => {
                 <NavLink to={'/statistics'}>Statistics</NavLink>
                 <NavLink to={'/blog'}>Blog</NavLink>
             </div>
-        </nav>
+        </nav >
 
     );
 };
