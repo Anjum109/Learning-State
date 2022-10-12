@@ -24,3 +24,14 @@
     color: #fff;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .question {
+        font-size: 10px;
+    }
+}

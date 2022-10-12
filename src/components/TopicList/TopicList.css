@@ -4,6 +4,10 @@
 
 }
 
+.topic-list:hover {
+    box-shadow: 0 4px 8px 0 rgba(200, 156, 156, 0.2), 0 6px 20px 0 rgba(195, 152, 152, 0.19);
+}
+
 .logo-image img {
     width: 100%;
     background-color: rgba(229, 210, 210, 0.466);
@@ -15,7 +19,7 @@
 
 .practice-btn {
     width: 100%;
-    background-color: rgba(229, 210, 210, 0.466);
+    background-color: rgba(230, 194, 194, 0.795);
     border: none;
 
     padding: 15px;
@@ -23,6 +27,10 @@
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 
+}
+
+.practice-btn:hover {
+    background-color: rgba(221, 127, 127, 0.795);
 }
 
 .practice-btn a {

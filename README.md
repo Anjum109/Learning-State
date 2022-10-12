@@ -1,7 +1,7 @@
-# Getting Started with Create React App
+Learning State
 
-Live website link:
-Github Link: 
+Live website link: https://dynamic-quokka-a93008.netlify.app
+Github Link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Anjum109
 
 The work I have done with this project is listed below sequentially: 
 
